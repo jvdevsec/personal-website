@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home - Personal Site</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="styles2.css" />
-    <link rel="stylesheet" href="styles3.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/styles2.css" />
+    <link rel="stylesheet" href="/css/styles3.css" />
   </head>
   <body class="terminal">
       <div class="container">
@@ -21,10 +21,10 @@
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
               <li>
-                <a href="" typeof="ListItem">proyectos/</a>
+                <a href="proyectos.html" typeof="ListItem">proyectos/</a>
               </li>
               <li>
-                <a href="" typeof="ListItem">blog(wip)/</a>
+                <a href="/posts.html" typeof="ListItem">blog(wip)/</a>
               </li>
             </ul>
           </nav>
@@ -38,7 +38,7 @@
       </div>
       <div class="container zoomIn fast">
         <h1>
-          Sobre mi :
+          Sobre mi
         </h1>
         <p>
           Hola, soy Juan Valdes (a.k.a jv), estudiante de Ingenieria de Sistemas. Mucho de lo que hago involucra computadores, por lo que la programacion tambien es uno de mis hobbies. Soy autodidacta y he adquirido habilidades en lenguajes como python, javascript, bash y  C/C++. Tambien he aprendido algunas tecnologias relacionadas al desarrollo de aplicaciones web como MongoDB, Express.js, React y Node.js - MERN stack. 
@@ -49,35 +49,43 @@
         <p>
           Mis intereses han abarcado diferentes temas: desarrollo web, bajo nivel, ciberseguridad por nombrar algunos. Sin embargo, me veo como un generalista, tanto en lenguajes de programacion y lo que me interesa. Mientras estás aquí, puede que quieras echar un vistazo a algunos de los proyectos en los que he estado trabajando o un poco de lo que escribo sobre tecnologia.
         </p>
+        
+        <br>
+
+        <h1>Contacto</h1>
+        <div class="contact">
+          <ul>
+            <li>Email: <a href="mailto:mail@oneorzero.com">jesteban.valdes0@gmail.com</a></li>
+            <li>Fediverse: <a href="#">@oneOrzerodonotsta.co</a> </li>
+            <li>Matrix: <a href="#">@oneOrzero:matrix.org</a></li>
+          </ul>
+        </div>
 
         <br>
 
-        <h1>Posts</h1>
-        <div class="posts-list">
-          <div class="post">
-            <p>
-            </p>
-            <div class="date">XX. XX. XXXX</div>
-            <h1>
-              <a href="#" title="En construccion">🚧 En construccion 🚧</a>
-            </h1>
-          </div>
+        <h1>Proyectos</h1>
+        <div class="projects zoomIn fast">
+          <p>
+            Me dedico a mis proyectos personales en mi tiempo libre, y tambien a los academicos, usualmente enfocandome en uno a la vez. Algunos estan listados aqui, otros se encuentran en GitHub. 
+          </p>
+          <h2> ⛅️ Weather Finder </h2>
+          <p>
+            Aplicacion web que proporciona informacion metereologica precisa y en tiempo real usando <a href="https://www.weatherapi.com/docs/" target="_blank">WeatherAPI</a>. Ofrece pronosticos detallados y accesibles de cualquier parte del mundo permitiendo visualizar datos como la temperatura, la humedad, la velocidad del viento y otras variables metereologicas importantes. En este proyecto he estado activo ultimamente y ha sido trabajo colaborativo por lo que aun hay tareas por hacer (deploy).  <a href="https://github.com/J4BC97/weather-app" target="_blank">Weather Finder</a> esta hecha con React⚛️ + Vite⚡.
+          </p>
         </div>
-      </div>     
     </main>
 
-    <br>
     <footer>
       <div class="container">
         <div class="footer">
-          <h2>Contacto</h2>
-            <a href="" class="link-spacing rainbow rainbow_text_animated">Email</a>
-            <a href="" class="link-spacing rainbow rainbow_text_animated">Fediverse</a>
-            <a href="" class="link-spacing rainbow rainbow_text_animated">Github</a>
-          </div>
+            <a href="mailto:mail@oneorzero.com" class="rainbow rainbow_text_animated">Email</a>
+            <a href="https://www.fediverse.to/about/" target="_blank" class="rainbow rainbow_text_animated">Fediverse</a>
+            <a href="https://github.com/jvdevsec" target="_blank" class="rainbow rainbow_text_animated">Github</a>
+        </div>
       </div>
-
+       
       <br>
+
       <div class="container">
           <p>Hecho con amor por jv ¯\_(ツ)_/¯</p>
       </div>
